@@ -1,7 +1,4 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
+
 
 <p align="center">
   <a href=" https://www.hackerrank.com/domains/tutorials/30-days-of-code">
