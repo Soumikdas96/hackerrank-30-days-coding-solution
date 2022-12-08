@@ -35,4 +35,4 @@ But, this can prove to be quite a difficult task at times. So, here are some sol
 ### About The Repo
 
 
-This is a repository aiming to provide solutions for 30 days code challenge (2020) conducted on Hackerrank. The solutions are available in major languages like Python, ,Java.It is a great platform for users to contribute and provide the solutions in other languages too.
+This is a repository aiming to provide solutions for 30 days code challenge (2022) conducted on Hackerrank. The solutions are available in major languages like Python, ,Java.It is a great platform for users to contribute and provide the solutions in other languages too.
