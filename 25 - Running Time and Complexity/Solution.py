@@ -1,19 +1,21 @@
-from math import sqrt
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+import math
+t = int(input())
 
-T = int(input())
+while t>0:
 
-
-def isPrime(n):
-    for i in range(2, int(sqrt(n) + 1)):
-        if n % i is 0:
-            return False
-    return True
-
-
-for _ in range(T):
     n = int(input())
-    
-    if n >= 2 and isPrime(n):
+    c = 0
+    for i in range(2, math.floor(math.sqrt(n))+1):
+        if n%i==0:
+            c += 1
+    if n==1:
+        print("Not prime")
+        t -= 1
+        continue
+    if c==0:
         print("Prime")
     else:
         print("Not prime")
+    t -= 1
+
