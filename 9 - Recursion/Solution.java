@@ -1,15 +1,42 @@
-import java.util.Scanner;
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
 
 public class Solution {
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
-        in.close();
-        System.out.println(factorial(n));
-    }
 
-    private static int factorial(int n) {
-        if (n == 1) return 1;
-        return factorial(n - 1) * n;
-    }
+	// Complete the factorial function below.
+	static int factorial(int n) {
+		System.out.println("n: " + n);
+		// Recursive Case
+		if (n > 1) {
+			return n * factorial(n - 1);
+		}
+		// Base Case n = 1
+		else {
+			return n;
+		}
+
+	}
+
+	private static final Scanner scanner = new Scanner(System.in);
+
+	public static void main(String[] args) throws IOException {
+		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+
+		int n = scanner.nextInt();
+		scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+
+		int result = factorial(n);
+
+		bufferedWriter.write(String.valueOf(result));
+		bufferedWriter.newLine();
+
+		bufferedWriter.close();
+
+		scanner.close();
+	}
 }
