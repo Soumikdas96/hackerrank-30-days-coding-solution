@@ -1,5 +1,8 @@
-![Screenshot (150)](https://user-images.githubusercontent.com/91152839/206441351-d692cad7-0ae8-4885-83f9-02e16861eb38.png)
 
+
+<p align="center">
+![Screenshot (150)](https://user-images.githubusercontent.com/91152839/206441351-d692cad7-0ae8-4885-83f9-02e16861eb38.png)
+</p>
 
 <p align="center">
   <a href=" https://www.hackerrank.com/domains/tutorials/30-days-of-code">
